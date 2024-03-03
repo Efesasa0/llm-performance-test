@@ -11,6 +11,7 @@ TEMPLATE """### System:
 
 ### Assistant:
 """
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER num_ctx 4096
 PARAMETER stop "</s>"
 PARAMETER stop "<|im_start|>"

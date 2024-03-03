@@ -1,5 +1,5 @@
 # LLM playground 🛝
-This project will create the basis of a future project I plan to begin. I am prioritizing the main piece of software that is will be developing an LLM which needs preperation. Then later a full scale app will be integrated around this LLM.
+This project will create the basis of a future project I plan to begin. I am prioritizing the main piece of software that is will be developing an LLM which needs preperation. Then later a full scale app will be using this llm model.
 
 # TODOS (asses inference speed & plasticity)
 1. ✅ System prompt several models see if embodies the 2001 character HAL-9000

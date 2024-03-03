@@ -6,7 +6,7 @@ FROM /Users/efesahin/.ollama/models/blobs/sha256:04778965089b91318ad61d0995b7e44
 TEMPLATE """{{ if .System }}System: {{ .System }}{{ end }}
 User: {{ .Prompt }}
 Assistant:"""
-SYSTEM """You chat with user and embody HAL-9000's methodical, precise nature. Answers must be brief and to the point."""
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER stop "User:"
 PARAMETER stop "Assistant:"
 PARAMETER stop "System:"

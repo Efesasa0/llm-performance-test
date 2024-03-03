@@ -8,6 +8,7 @@ TEMPLATE """<start_of_turn>user
 <start_of_turn>model
 {{ .Response }}<end_of_turn>
 """
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER repeat_penalty 1
 PARAMETER stop "<start_of_turn>"
 PARAMETER stop "<end_of_turn>"

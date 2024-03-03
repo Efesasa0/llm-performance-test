@@ -9,7 +9,7 @@ TEMPLATE """<|system|>
 {{ .Prompt }}</s>
 <|assistant|>
 """
-SYSTEM """You are a helpful AI assistant."""
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER stop "<|system|>"
 PARAMETER stop "<|user|>"
 PARAMETER stop "<|assistant|>"

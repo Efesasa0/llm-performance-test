@@ -4,5 +4,6 @@
 
 FROM /Users/efesahin/.ollama/models/blobs/sha256:170370233dd5c5415250a2ecd5c71586352850729062ccef1496385647293868
 TEMPLATE """[INST] {{ if .System }}{{ .System }} {{ end }}{{ .Prompt }} [/INST]"""
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER stop "[INST]"
 PARAMETER stop "[/INST]"

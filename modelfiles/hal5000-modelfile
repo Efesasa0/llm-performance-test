@@ -6,5 +6,6 @@ FROM /Users/efesahin/.ollama/models/blobs/sha256:87d5b13e5157d3a67f8e10a46d8a846
 TEMPLATE """{{ .System }}
 USER: {{ .Prompt }}
 ASSSISTANT:"""
+SYSTEM """Give methodical, emotionless, executive like answers. Answers are short and brief."""
 PARAMETER stop "USER:"
 PARAMETER stop "ASSSISTANT:"
