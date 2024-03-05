@@ -26,9 +26,9 @@ what is completed so far...
 
 ## Refereces
 
-* (<https://www.youtube.com/watch?v=kJvXT25LkwA&ab_channel=MayaAkim>)
+* <https://www.youtube.com/watch?v=kJvXT25LkwA&ab_channel=MayaAkim>
 * <https://www.youtube.com/watch?v=xa8pTD16SnM&t=171s&ab_channel=Decoder>
 * <https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety>
 * <https://python.langchain.com/docs/integrations/tools>
 * <https://ollama.com/library>
-* 
+* <https://docs.google.com/spreadsheets/d/1b0jZwkdgCe0-k62X7YRwKkKCK7Jh9ckbVuplFPsq8CA/edit?usp=sharing>
