@@ -3,8 +3,8 @@ This project will create the basis of a future project I plan to begin. I am pri
 
 # TODOS (asses inference speed & plasticity)
 1. ✅ System prompt several models see if embodies the 2001 character HAL-9000
-2. Instruction tune each new model in inference time and observe inference speed and model plasticity/adabtability.
-3. With my gut feelings, select a winner model to proceed with "HAL-9000" likeness
+2. ❌ Instruction tune each new model in inference time and observe inference speed and model plasticity/adabtability.
+3. ✅ With my gut feelings, select few winner models to proceed with "HAL-9000" likeness.
 4. Proceed with winner model with further Fine tuning based on custom dataset.
 5. Implement RAG? Agent Calling? ReAct?
 
@@ -18,8 +18,11 @@ what is completed so far...
 * installed langchain-google-genai
 * installed google-serp-api
 * played with we research langchain tools and Ollama
-* created Ollama testing code to asses inference speed for several models.
-* System Prompts used, assessed inference speed.
+* created Ollama testing code to evaluate inference speed for several models.
+* System Prompts used, evaluate inference speed.
+* Evaluated responses to prompts based on personal preference / gut feeling.
+* To not lose time, evaluated mean response times and mean length of generated responses.
+* Will proceed with **llama2:7b:chat**, **llava2:13b**, **neural-chat:7b**, **gemma:2b:instruct**
 
 ## Refereces
 
